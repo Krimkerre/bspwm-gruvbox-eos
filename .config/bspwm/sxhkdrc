@@ -1,0 +1,132 @@
+# Open terminal
+super + Return
+	kitty
+
+# App launcher
+super + d
+	rofi -show drun -config .config/bspwm/rofi/configs/config.rasi
+XF86Launch1
+	rofi -show drun -config .config/bspwm/rofi/configs/config.rasi	
+
+# Powermenu
+super + x
+	sh ~/.config/bspwm/rofi/scripts/powermenu
+
+# Open file manager
+super + n
+	thunar
+
+# Open browser
+super + b
+	firefox
+
+# Lock screen
+XF86ScreenSaver
+	betterlockscreen -l dim
+
+# Open telegram
+super + m
+	telegram-desktop
+
+# Make screenshot
+Print
+	flameshot gui
+
+# Dunst mute/unmute
+super + m
+	{dunstctl set-paused true && polybar-msg hook dunst 2, dunstctl set-paused false && polybar-msg hook dunst 1}
+
+# Dunst history
+super + shift + d
+	{bash ~/.config/bspwm/dunst.sh display-history,	bash ~/.config/bspwm/dunst.sh close-history}
+
+# Colorpiker
+super + p
+	colorpicker
+
+# Clipboard
+super + c
+	rofi -modi "clipboard:$HOME/.local/bin/greenclip print" -show clipboard -config ~/.config/bspwm/rofi/configs/config.rasi
+
+# Hide bar 
+super + shift + b
+	$HOME/.config/bspwm/polybar/hide.sh
+
+# Increase/decrease volume
+#XF86Audio{RaiseVolume,LowerVolume}
+#	pamixer -{i,d} 2
+
+# Mute/unmute volume
+#XF86AudioMute
+#	pamixer {--mute, --unmute}
+
+XF86AudioRaiseVolume
+	$HOME/.config/bspwm/scripts/volume_brightness.sh volume_up
+XF86AudioLowerVolume
+	$HOME/.config/bspwm/scripts/volume_brightness.sh volume_down
+XF86AudioMute
+	$HOME/.config/bspwm/scripts/volume_brightness.sh volume_mute
+
+# Increase/decrease brightness
+#XF86MonBrightness{Up,Down}
+#	brightnessctl s 5%{+,-}
+
+XF86MonBrightnessUp
+	$HOME/.config/bspwm/scripts/volume_brightness.sh brightness_up
+XF86MonBrightnessDown
+	$HOME/.config/bspwm/scripts/volume_brightness.sh brightness_down
+
+# Close/kill focus app
+super + {q, shift + q}
+	bspc node -{c,k}
+
+# Reload sxhkd config
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#VSP2
+super + shift + i
+	kitty -e vsp2
+
+# Reload bspwm config
+super + shift + r
+	bspc wm -r
+
+# Set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# Focus the node in the given direction
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+# Focus/send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+# Preselect the direction
+super + alt + {Left,Down,Up,Right}
+	bspc node -p {west,south,north,east}
+
+# Cancel the preselection for the focused node
+super + alt + space
+	bspc node -p cancel 
+
+# Move current window to a pre-selected space
+super + alt + m
+	bspc node -n last.!automatic
+
+# Show help
+super + shift + s
+	$HOME/.config/bspwm/rofi/scripts/sxhkd_help
+
+# Resize windows
+super + ctrl + {Left,Down,Up,Right}
+	{bspc node -z left -20 0; bspc node -z right -20 0, \
+	bspc node -z bottom 0 20; bspc node -z top 0 20, \
+	bspc node -z bottom 0 -20; bspc node -z top 0 -20, \ 
+	bspc node -z left 20 0; bspc node -z right 20 0}
+
+# books
+super + shift + p
+	$HOME/.config/bspwm/rofi/scripts/books
