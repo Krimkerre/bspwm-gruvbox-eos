@@ -8,8 +8,8 @@ rofi_cmd() {
 chosen=$(printf "\n\n" | rofi_cmd)
 
 case "$chosen" in
-	"") loginctl poweroff ;;
-	"") loginctl reboot ;;
+	"") systemctl poweroff ;;
+	"") systemctl reboot ;;
 	"") bspc quit ;;
 	*) exit 1 ;;
 esac
