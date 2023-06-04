@@ -1,9 +1,9 @@
 # bspwm-gruvbox-eos
 testing ground for custom script in EndeavourOS installer
 
-open a terminal in the EndeavourOS live installer and enter:
+download folowing file and save it in the home folder of the live iso, overwriting the exisiting file
+https://raw.githubusercontent.com/Krimkerre/bspwm-gruvbox-eos/main/user_commands.bash
 
-eos-welcome --ni="https://raw.githubusercontent.com/Krimkerre/bspwm-gruvbox-eos/main/setup.sh"
-
+Change $USER inside the file to whatever username you have chosen.
 
 Do not expect this to work :)
