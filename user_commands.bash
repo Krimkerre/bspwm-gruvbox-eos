@@ -35,8 +35,6 @@ chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
 
 sudo pacman -S --needed --noconfirm - < user_packages.txt
 
-sudo cp -R bspwm.desktop /usr/share/xsessions/bspwm.desktop
-
 
 #############
 ## LightDM ##
@@ -44,6 +42,7 @@ sudo cp -R bspwm.desktop /usr/share/xsessions/bspwm.desktop
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 sudo cp -R lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
+sudo cp -R bspwm.desktop /usr/share/xsessions/bspwm.desktop
 
 
 ##############
