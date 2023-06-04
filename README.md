@@ -1,5 +1,12 @@
 # bspwm-gruvbox-eos
-testing ground for custom script in EndeavourOS installer
+testing ground for custom script in EndeavourOS installer <br>
+
+These are mostly Sinomor's Void dots, modified for my own use. <br>
+Couple of added features are a caps lock notifier, <br>
+Brigntness and volume notificatios (courtesy of Nmoleo's script) <br>
+and some minor tweaks here and there. <br><br>
+
+all of this has been translated to work on EndeavourOS and systemd, with the ability to piggyback on EndeavourOS's calamares installer. <br> <br>
 
 download folowing file and save it in the home folder of the live iso, overwriting the exisiting file
 https://raw.githubusercontent.com/Krimkerre/bspwm-gruvbox-eos/main/user_commands.bash
