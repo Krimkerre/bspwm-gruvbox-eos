@@ -19,15 +19,15 @@ sudo mkdir /usr/share/backgrounds
 sudo mv -R wall.jpg /usr/share/backgrounds/wall.jpg
 sudo mv -R themes /usr/share/
 sudo mv -R icons /usr/share/
-cp -R .config ~/
-cp -R .fonts ~/
-cp -R .local ~/
-cp -R telegram ~/
-cp .Xresources ~/
-cp .bashrc ~/
-cp .xinitrc ~/
-chmod -R +x ~/.config/bspwm/scripts
-chmod -R +x ~/.config/bspwm/rofi/scripts
+cp -R .config /home/$USER/
+cp -R .fonts /home/$USER/
+cp -R .local /home/$USER/
+cp -R telegram /home/$USER/
+cp .Xresources /home/$USER/
+cp .bashrc /home/$USER/
+cp .xinitrc /home/$USER/
+chmod -R +x /home/$USER/.config/bspwm/scripts
+chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
 
 
 ##############
