@@ -33,7 +33,6 @@ pavucontrol
 picom
 polkit-gnome
 polybar
-pulseaudio-alsa
 ristretto
 rofi
 sxhkd
