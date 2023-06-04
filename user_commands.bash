@@ -18,7 +18,6 @@ cd bspwm-gruvbox-eos
 
 sudo pacman -S --needed --noconfirm - < user_packages.txt
 
-sudo mkdir /usr/share/xsessions
 sudo cp -R bspwm.desktop /usr/share/xsessions/bspwm.desktop
 
 
