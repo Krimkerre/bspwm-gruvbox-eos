@@ -23,8 +23,8 @@ Do not expect this to work :)</p>
 <br>
 <br>
 
-Skeleton script by: joekamprad: https://github.com/killajoe
-Brightness/volume control script by Nmoleo: https://gitlab.com/Nmoleo/i3-volume-brightness-indicator
+Skeleton script by: joekamprad: https://github.com/killajoe <br>
+Brightness/volume control script by Nmoleo: https://gitlab.com/Nmoleo/i3-volume-brightness-indicator <br>
 Original dots by Sinomor: https://github.com/Sinomor/dots
 
 
