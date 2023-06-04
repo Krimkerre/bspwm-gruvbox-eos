@@ -16,7 +16,7 @@ su $USER
 git clone https://github.com/Krimkerre/bspwm-gruvbox-eos.git
 cd bspwm-gruvbox-eos
 sudo mkdir /usr/share/backgrounds
-sudo cp  wall.jpg /usr/share/backgrounds/wall.jpg
+sudo cp  wall.jpg /usr/share/backgrounds/
 sudo cp -R themes /usr/share/
 sudo cp -R icons /usr/share/
 cp -R .config /home/$USER/
