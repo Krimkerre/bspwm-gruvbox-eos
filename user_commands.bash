@@ -8,31 +8,34 @@
 # Original dots by Sinomor: https://github.com/Sinomor/dots
 
 
-##############
-## Packages ##
 
+##########
+## Dots ##
 cd /home/$USER
 su $USER
 git clone https://github.com/Krimkerre/bspwm-gruvbox-eos.git
 cd bspwm-gruvbox-eos
+sudo mkdir /usr/share/backgrounds
+sudo mv -R wall.jpg /usr/share/backgrounds/wall.jpg
+sudo mv -R themes /usr/share/
+sudo mv -R icons /usr/share/
+cp -R .config /home/$USER/
+cp -R .fonts /home/$USER/
+cp -R .local /home/$USER/
+cp -R telegram /home/$USER/
+cp -R .Xresources /home/$USER/
+cp -R .bashrc /home/$USER/
+cp -R .xinitrc /home/$USER/
+chmod -R +x /home/$USER/.config/bspwm/scripts
+chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
+
+
+##############
+## Packages ##
 
 sudo pacman -S --needed --noconfirm - < user_packages.txt
 
 sudo cp -R bspwm.desktop /usr/share/xsessions/bspwm.desktop
-
-
-##########
-## Dots ##
-
-sudo mkdir /usr/share/backgrounds
-sudo cp -R wall.jpg /usr/share/backgrounds/wall.jpg
-sudo cp -R themes /usr/share/
-sudo cp -R icons /usr/share/
-
-cd ..
-cp -R bspwm-gruvbox-eos/* /home/$USER/
-chmod -R +x /home/$USER/.config/bspwm/scripts
-chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
 
 
 #############
@@ -58,7 +61,7 @@ EOF
 
 #########
 ## END ##
-
+cd ..
 rm -rf bspwm-gruvbox-eos
 
 
