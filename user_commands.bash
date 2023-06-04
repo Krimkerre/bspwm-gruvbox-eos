@@ -14,22 +14,23 @@
 cd /home/$USER
 su $USER
 git clone https://github.com/Krimkerre/bspwm-gruvbox-eos.git
+cd bspwm-gruvbox-eos
 
 sudo pacman -S --needed --noconfirm - < user_packages.txt
-yay -S cava --noconfirm
 
-sudo rm -r /usr/share/xsessions/bspwm.desktop
-sudo cp -R bspwm-gruvbox-eos/bspwm.desktop /usr/share/xsessions/bspwm.desktop
+sudo mkdir /usr/share/xsessions
+sudo cp -R bspwm.desktop /usr/share/xsessions/bspwm.desktop
 
 
 ##########
 ## Dots ##
 
 sudo mkdir /usr/share/backgrounds
-sudo cp -R bspwm-gruvbox-eos/wall.jpg /usr/share/backgrounds/wall.jpg
-sudo cp -R bspwm-gruvbox-eos/themes /user/share/
-sudo cp -R bspwm-gruvbox-eos/icons /user/share/
+sudo cp -R wall.jpg /usr/share/backgrounds/wall.jpg
+sudo cp -R themes /usr/share/
+sudo cp -R icons /usr/share/
 
+cd..
 cp -R bspwm-gruvbox-eos/* /home/$USER/
 chmod -R +x /home/$USER/.config/bspwm/scripts
 chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
