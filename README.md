@@ -6,4 +6,6 @@ https://raw.githubusercontent.com/Krimkerre/bspwm-gruvbox-eos/main/user_commands
 
 Change $USER inside the file to whatever username you have chosen.
 
+proceed with 'online installer' and choose no DE.
+
 Do not expect this to work :)
