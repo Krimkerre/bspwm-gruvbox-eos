@@ -21,6 +21,18 @@ Do not expect this to work :)</p>
 
 <br>
 <br>
+![01](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/bc9c8d1a-a01f-452c-8d45-a6e35b2832eb) <br>
+
+![02](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/4da8041b-c40b-4a4d-9169-9367a26a7023) <br>
+
+![03](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/dbe527da-5bc4-4800-8ac9-8d6a368bb990) <br>
+
+![04](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/1ba4a4a4-da06-412c-8728-f7deee977d84) <br>
+
+![05](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/a11a441f-a5c6-4b99-8acb-1652c176d30b) <br>
+
+![06](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/6c91196c-fff7-4e8e-ab43-cde653e8d575) <br>
+
 <br>
 <br>
 
