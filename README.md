@@ -17,3 +17,14 @@ select the 'awesome.tdesktop-theme' file in the telegram folder under home.
 <p>This is for testing only...<br>
 Use at your own risk<br>
 Do not expect this to work :)</p>
+
+<br>
+<br>
+<br>
+<br>
+
+Skeleton script by: joekamprad: https://github.com/killajoe
+Brightness/volume control script by Nmoleo: https://gitlab.com/Nmoleo/i3-volume-brightness-indicator
+Original dots by Sinomor: https://github.com/Sinomor/dots
+
+
