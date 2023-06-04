@@ -30,7 +30,7 @@ sudo cp -R wall.jpg /usr/share/backgrounds/wall.jpg
 sudo cp -R themes /usr/share/
 sudo cp -R icons /usr/share/
 
-cd..
+cd ..
 cp -R bspwm-gruvbox-eos/* /home/$USER/
 chmod -R +x /home/$USER/.config/bspwm/scripts
 chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
