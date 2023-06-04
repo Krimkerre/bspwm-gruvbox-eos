@@ -21,6 +21,7 @@ Do not expect this to work :)</p>
 
 <br>
 <br>
+
 ![01](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/bc9c8d1a-a01f-452c-8d45-a6e35b2832eb) <br>
 
 ![02](https://github.com/Krimkerre/bspwm-gruvbox-eos/assets/66228690/4da8041b-c40b-4a4d-9169-9367a26a7023) <br>
