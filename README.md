@@ -18,6 +18,16 @@ select the 'awesome.tdesktop-theme' file in the telegram folder under home.
 Use at your own risk<br>
 Do not expect this to work :)</p>
 
+
+
+![alt text](https://github.com/Krimkerre/bspwm-gruvbox-eos/blob/main/screenshots/1.png)
+![alt text](https://github.com/Krimkerre/bspwm-gruvbox-eos/blob/main/screenshots/2.png)
+![alt text](https://github.com/Krimkerre/bspwm-gruvbox-eos/blob/main/screenshots/3.png)
+![alt text](https://github.com/Krimkerre/bspwm-gruvbox-eos/blob/main/screenshots/4.png)
+![alt text](https://github.com/Krimkerre/bspwm-gruvbox-eos/blob/main/screenshots/5.png)
+![alt text](https://github.com/Krimkerre/bspwm-gruvbox-eos/blob/main/screenshots/6.png)
+
+
 <br>
 <br>
 <br>
