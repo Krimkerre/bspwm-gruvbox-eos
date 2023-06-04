@@ -19,13 +19,13 @@ sudo mkdir /usr/share/backgrounds
 sudo mv -R wall.jpg /usr/share/backgrounds/wall.jpg
 sudo mv -R themes /usr/share/
 sudo mv -R icons /usr/share/
-cp -R .config /home/$USER/
-cp -R .fonts /home/$USER/
-cp -R .local /home/$USER/
-cp -R telegram /home/$USER/
-cp -R .Xresources /home/$USER/
-cp -R .bashrc /home/$USER/
-cp -R .xinitrc /home/$USER/
+cp -R .config ~/
+cp -R .fonts ~/
+cp -R .local ~/
+cp -R telegram ~/
+cp .Xresources ~/
+cp .bashrc ~/
+cp .xinitrc ~/
 chmod -R +x /home/$USER/.config/bspwm/scripts
 chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
 
