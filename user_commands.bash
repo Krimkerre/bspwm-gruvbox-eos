@@ -62,6 +62,7 @@ EOF
 ## END ##
 cd ..
 rm -rf bspwm-gruvbox-eos
+sudo chown -R $USER:$USER /home/$USER
 
 
 #########################
