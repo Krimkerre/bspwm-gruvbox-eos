@@ -6,10 +6,14 @@ Couple of added features are a caps lock notifier, <br>
 brigntness and volume notifications (courtesy of Nmoleo's script) <br>
 and some minor tweaks here and there. <br><br>
 
-all of this has been translated to work on EndeavourOS and systemd, with the ability to piggyback on EndeavourOS's calamares installer. <br> <br>
+all of this has been translated to work on EndeavourOS and systemd, with the ability to piggyback on EndeavourOS's calamares installer. <br> <br> <br>
 
-download folowing file and save it in the home folder of the live iso, overwriting the exisiting file
-https://raw.githubusercontent.com/Krimkerre/bspwm-gruvbox-eos/main/user_commands.bash
+To install: <br><br>
+
+Boot from the EndeavourOS live iso, open firefox and go to this page <br>
+
+download following file and save it in the home folder of the EndeavourOS live iso, overwriting the exisiting file
+https://raw.githubusercontent.com/Krimkerre/bspwm-gruvbox-eos/main/user_commands.bash <br>
 
 Change $USER inside the file to whatever username you have chosen.
 
