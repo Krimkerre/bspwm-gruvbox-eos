@@ -8,4 +8,6 @@ Change $USER inside the file to whatever username you have chosen.
 
 proceed with 'online installer' and choose no DE.
 
+This is for testing only... 
+Use at your own risk
 Do not expect this to work :)
