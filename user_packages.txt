@@ -43,6 +43,7 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 ttf-dejavu
+ttf-fira-code
 ttf-font-awesome
 ttf-jetbrains-mono-nerd
 vim
