@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/Krimkerre/bspwm-gruvbox-eos/main/user_commands
 
 Change $USER inside the file to whatever username you have chosen.
 
-proceed with 'online installer' and choose no DE.<br>
+proceed with 'online installer' and choose no DE.<br><br>
 
 cava will have to be installed through AUR on first boot, login again and cava module should work in polybar
 
