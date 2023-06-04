@@ -26,8 +26,8 @@ cp -R telegram ~/
 cp .Xresources ~/
 cp .bashrc ~/
 cp .xinitrc ~/
-chmod -R +x /home/$USER/.config/bspwm/scripts
-chmod -R +x /home/$USER/.config/bspwm/rofi/scripts
+chmod -R +x ~/.config/bspwm/scripts
+chmod -R +x ~/.config/bspwm/rofi/scripts
 
 
 ##############
