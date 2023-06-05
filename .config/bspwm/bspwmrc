@@ -9,7 +9,8 @@ feh --bg-fill /usr/share/backgrounds/wall.jpg &
 xset r rate 215 50 &
 $HOME/.local/bin/greenclip daemon &
 xfce4-power-manager &
-/usr/libexec/polkit-gnome-authentication-agent-1 &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+firewall-applet &
 pgrep -x pipewire > /dev/null || pipewire &
 pgrep -x pipewire-pulse > /dev/null || pipewire-pulse &
 pgrep -x wireplumber > /dev/null || wireplumber &
