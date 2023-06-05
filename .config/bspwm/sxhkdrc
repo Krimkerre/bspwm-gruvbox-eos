@@ -69,7 +69,7 @@ XF86AudioMute
 
 # Increase/decrease brightness
 XF86MonBrightness{Up,Down}
-	brightnessctl s 5%{+,-}
+	brightnessctl s 10%{+,-}
 
 #XF86MonBrightnessUp
 #	$HOME/.config/bspwm/scripts/volume_brightness.sh brightness_up
