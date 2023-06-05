@@ -68,13 +68,13 @@ XF86AudioMute
 	$HOME/.config/bspwm/scripts/volume_brightness.sh volume_mute
 
 # Increase/decrease brightness
-#XF86MonBrightness{Up,Down}
-#	brightnessctl s 5%{+,-}
+XF86MonBrightness{Up,Down}
+	brightnessctl s 5%{+,-}
 
-XF86MonBrightnessUp
-	$HOME/.config/bspwm/scripts/volume_brightness.sh brightness_up
-XF86MonBrightnessDown
-	$HOME/.config/bspwm/scripts/volume_brightness.sh brightness_down
+#XF86MonBrightnessUp
+#	$HOME/.config/bspwm/scripts/volume_brightness.sh brightness_up
+#XF86MonBrightnessDown
+#	$HOME/.config/bspwm/scripts/volume_brightness.sh brightness_down
 
 # Close/kill focus app
 super + {q, shift + q}
